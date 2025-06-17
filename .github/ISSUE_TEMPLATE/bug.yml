@@ -20,8 +20,8 @@ body:
           required: true
   - type: checkboxes
     id: troubleshooting
-    attributes:
-      label: I have read the troubleshooting guide {% docs data.variables.template.troubleshooting %}
+    attributes:                                       
+      label: I have read the troubleshooting guide - {% docs.data.variables.template.troubleshooting %} - {% docs data.variables.template.troubleshooting %}
       description: Before you submit a bug, make sure you have read the ["Common issues" section in the Troubleshooting guide]( {% docs data.variables.template.troubleshooting %} ).
       options:
         - label: I have read the troubleshooting guide and I think this is a new bug.
