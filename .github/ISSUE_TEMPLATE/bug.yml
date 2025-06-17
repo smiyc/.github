@@ -21,7 +21,7 @@ body:
   - type: checkboxes
     id: troubleshooting
     attributes:                                       
-      label: I have read the troubleshooting guide - {% data foo.bar.meaning_of_life %} - {% data variable.foo.bar.meaning_of_life %}
+      label: I have read the troubleshooting guide - {% data foo.bar.meaning_of_life %}
       description: Before you submit a bug, make sure you have read the ["Common issues" section in the Troubleshooting guide]( {% data template.troubleshooting %} ).
       options:
         - label: I have read the troubleshooting guide and I think this is a new bug.
