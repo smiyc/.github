@@ -21,8 +21,8 @@ body:
   - type: checkboxes
     id: troubleshooting
     attributes:                                       
-      label: I have read the troubleshooting guide {% docs data.template.troubleshooting %}
-      description: Before you submit a bug, make sure you have read the ["Common issues" section in the Troubleshooting guide]( {% docs data.variables.template.troubleshooting %} ).
+      label: I have read the troubleshooting guide
+      description: Before you submit a bug, make sure you have read the ["Common issues" section in the Troubleshooting guide]( {% data template.troubleshooting %} ).
       options:
         - label: I have read the troubleshooting guide and I think this is a new bug.
           required: true
